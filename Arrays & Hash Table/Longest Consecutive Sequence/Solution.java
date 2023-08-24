@@ -26,6 +26,7 @@ class Solution {
             }
             longest = Math.max(length, longest);
             }
+            if(longest > nums.length/2) break;
             
         }
         return longest;
